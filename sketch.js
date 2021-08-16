@@ -41,7 +41,7 @@ marioimg=loadAnimation("mario1.png","mario2.png","mario1.png");
 }
 
 function setup() {
-createCanvas(400,400);
+createCanvas(410,400);
 title=createSprite(200,150,800,800) ;
   title.addImage(titleimg);
   title.scale=1.6
